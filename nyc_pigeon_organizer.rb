@@ -11,11 +11,12 @@ def nyc_pigeon_organizer(data)
           final[name] = {}
         end
         
-        if !final.has_key?(col_gen_liv)
+        if !final[name].has_key?(col_gen_liv)
           final[name][col_gen_liv] = []
         end
         
-        if !final.has_key?(type)
+        if !final[name][col_gen_liv].inlcude?(type)
+          final[name][col_gen_liv] << type.to_s
           
         end
         
