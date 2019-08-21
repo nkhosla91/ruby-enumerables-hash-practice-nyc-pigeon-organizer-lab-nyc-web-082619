@@ -10,10 +10,11 @@ def nyc_pigeon_organizer(data)
         if !final.has_key?(name)
           final[name] = {}
           
-          binding.pry
+          
         end
       end
     end
   end
   final
 end
+binding.pry
