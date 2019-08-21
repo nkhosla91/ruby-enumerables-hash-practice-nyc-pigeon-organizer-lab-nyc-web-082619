@@ -16,7 +16,7 @@ def nyc_pigeon_organizer(data)
         end
         
         if !final.has_key?(type)
-          final[name][col_gen_liv] = type
+          
         end
         
       end
