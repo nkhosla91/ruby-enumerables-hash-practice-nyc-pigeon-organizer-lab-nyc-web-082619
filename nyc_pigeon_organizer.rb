@@ -17,7 +17,7 @@ def nyc_pigeon_organizer(data)
         
         if !final[name][col_gen_liv].include?(type)
           final[name][col_gen_liv] << type.to_s
-          
+        
         end
         
       end
